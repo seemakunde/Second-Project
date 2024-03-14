@@ -1,0 +1,47 @@
+.nav{
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   background-color: #54A18F;
+   align-items: center;
+}
+
+.nav h1{
+
+   color: whitesmoke;
+   margin-left: 35px;
+   font-size:3rem;
+
+}
+
+.nav ul {
+   display: inline-flex;
+   list-style-type: none;
+   margin: 0;
+   padding-right: 80px;
+}
+
+.nav li{
+   padding-left: 15px;
+   margin-left: 15px;
+}
+
+a{
+   text-decoration:none;
+   color: whitesmoke;
+   font-size:1.5rem;
+}
+
+.un {
+   display: inline-block;
+   padding-bottom:6px;
+   background-image: linear-gradient(to right,  green 33%,orange 33% 66%,whitesmoke 66%);
+   background-position: right bottom;
+   background-size: 300% 4px;
+   background-repeat: no-repeat;
+ }
+ 
+ .un:hover {
+   background-position: left bottom;
+   transition: background-position 1s;
+ }

@@ -1,0 +1,10 @@
+section{
+   width: 80%; /* or any other desired width */
+    margin: 0 auto; /* This centers the element horizontally */
+    padding: 20px; /* Just for visibility */
+   margin-top: 50px;
+}
+
+section h2{
+   text-align: center;
+}
