@@ -3,8 +3,17 @@ section{
     margin: 0 auto; /* This centers the element horizontally */
     padding: 20px; /* Just for visibility */
    margin-top: 50px;
+   display: flex;
 }
 
 section h2{
    text-align: center;
+}
+
+.left-container{
+   background-color: gray;
+   padding: 30px;
+   border-radius: 20px;
+   box-shadow: 15px 15px lightblue;   
+   margin-right: 5opx;
 }
